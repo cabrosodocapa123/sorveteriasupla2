@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sorveteria do Supla 🍨</h1>
+    </header>
+    <div class="principal">
+        <div class="pedido">
+
+            <label>Nome:</label>
+            <br>
+            <input id="nome" type="text" placeholder="Digite aqui seu nome">
+            <br>
+            <label>Quantidade:</label>
+            <br>
+            <input id="quantidade" type="number" min="1" placeholder="Quantos sorvetes quer?">
+            <br>
+            <label>Sabores:</label>
+            <br>
+            <select id="sabores">
+                <option value="">Selecione</option>
+                <option value="chocolate"> Chocolate</option>
+                <option value="cereja">Cereja</option>
+                <option value="creme">Creme</option>
+                <option value="napolitano">Napolitano</option>
+                <option value="nutella">Nutella</option>
+                <option value="leiteninho">Leite ninho</option>
+            </select>
+            <br>
+            <button id="botao">Fazer pedido</button>
+        </div>
+    </div>
+    <hr>
+
+    <p id="pedidoNome"></p>
+    <p id="pedidoQuantia"></p>
+    <p id="pedidoSabor"></p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
